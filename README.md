@@ -12,8 +12,9 @@ npm start
 ```
 
 # Cap. 4 - DB & GraphQl
+Testing migration
 ```
-cd banco-de-dados
+cd banco-de-dados/projeto
 
 // Create migration
 npx knex migrate:make table_{tablename}
@@ -23,4 +24,10 @@ npx knex migrate:latest
 
 // Undo migration
 npx knex migrate:rollback
+```
+
+Challenge: integrating DB and graphQl
+```
+cd banco-de-dados/desafio
+npm start
 ```
